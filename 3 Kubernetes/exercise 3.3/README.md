@@ -32,6 +32,7 @@ In this exercise, you will specify a deployment (supervisor) for your pod by def
 
     ```console
     kubectl apply -f deployment.yaml
+    kubectl apply -f https://raw.githubusercontent.com/danielraso7/ws22/main/3%20Kubernetes/exercise%203.3/deployment.yaml
     ```
 
 1. You can see all your active deployments (in your current namespace) by executing:
@@ -85,3 +86,5 @@ In this exercise, you will specify a deployment (supervisor) for your pod by def
     :mag: What is your observation? 
 
 1. Increase the number of replicas to 3. Research at least two different approaches.
+
+ANSWER: change deployment.yaml (on own fork) to "replicas: 3" or execute some command (which leads to the vim) in the command line (gcloud) (ask Grimmer)
